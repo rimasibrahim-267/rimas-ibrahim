@@ -1,0 +1,52 @@
+/* General Body Styles */
+body {
+    background-color: #e4cbd8; /* Light background color */
+    font-family: Arial, sans-serif;
+    color: #0c0308; /* Dark text color */
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Navigation Menu Styles */
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: rgb(83, 22, 71);
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Container Class - Applied to Divs in HTML */
+.container {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+/* Highlight Title Class */
+.highlight-title {
+    color: #00008b; /* Dark Blue */
+}
+
+/* Schedule Table ID - Unique Styling */
+#schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+#schedule-table th, #schedule-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+#schedule-table th {
+    background-color: #da7575;
+}
